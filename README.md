@@ -14,4 +14,4 @@ This project is a simple MP3 player designed in a card format using HTML, CSS, a
 1. Clone this repository or download the source files.
 
 ```bash
-git clone https://github.com/yourusername/mp3-player-card.git
+https://github.com/Thamizh-mkce/MP3-Card.git
