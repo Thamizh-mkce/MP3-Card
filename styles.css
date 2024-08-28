@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.album-cover {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.player h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+.player p {
+  margin: 0 0 20px 0;
+  color: #666;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#playPause {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#seekBar {
+  width: 100%;
+  margin: 0 10px;
+}
+
+#currentTime,
+#duration {
+  font-size: 14px;
+  color: #333;
+}
